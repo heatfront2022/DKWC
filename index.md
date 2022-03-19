@@ -11,9 +11,27 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+
+# Title
+
+This is the home page for a template website you can build yourself.
+
+## More info
+
+This is a regular R Markdown document. 
+Put anything you like here, including R code.
+
+## About the YAML header
+
+Note that the YAML header is pretty minimal--just a title.
+
+## Rendering the site
+
+1. Run `rmarkdown::render_site()` from the same directory as the `_site.yml` file.
+2. View the output in the directory your YAML file specifies in `output_dir`.
+The template says: `output_dir: "docs"` so look in `docs/`.
+3. Open the `index.html` file in your browser to view your handywork.
+
 
 - Bulleted
 - List
